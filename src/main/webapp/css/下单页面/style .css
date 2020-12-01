@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{padding:0;margin:0}
+.checkbox{width:100%;height:100px; margin:100px auto; text-align:center}
+.checkbox a{ display:inline-block;width:100px; height:40px; border:solid 1px #f00; color:#f00; text-align:center; line-height:40px; text-decoration:none}
+
+/* 这里是自定义的弹出层样式 */
+
+.cd-popup-container {
+	width: 870px;
+	margin: 0px auto;
+	padding: 20px;
+	color: #3e3e3e;
+	border: 2px solid #dedede;
+	border-top-color: rgb(222, 222, 222);
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-top: 2px solid #ff4a00;
+	background-color: #FFF;
+	position: absolute;
+	z-index: 999999;
+	}
+
+	.ks-dialog{
+	width: 680px;
+	margin: 0px 10px;
+	padding: 20px;
+	color: #3e3e3e;
+	border: 2px solid #dedede;
+	border-top-color: rgb(222, 222, 222);
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-top: 2px solid #ff4a00;
+	background-color: #FFF;
+	position: absolute;
+	z-index: 999999;
+	}
+	.ks-dialog-header {
+	font-size: 14px;
+	}
+	.ks-dialog-header h3 {
+	font-size: 16px;
+	}
+	.ks-dialog-content p {
+	font-size: 12px;
+	}
+	.ks-dialog-body p {
+	margin-top: 8px;
+	margin-left: 5px;
+	font-size: 14px;
+	}
+	.ks-dialog-content strong {
+	color: #000;
+	font-weight: 700;
+	}
+	.ks-dialog-content p a {
+	font-weight: 700;
+	font-size: 14px;
+	}
+	/* a {
+	color: #ff5b20;
+	text-decoration: none;
+	font-weight: 700;
+	} */
+	/* a:hover {
+	color: #ff5b20;
+	text-decoration: underline;
+	} */
+	.ks-overlay-close {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	width: 24px;
+	height: 24px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 24px;
+	color: #DDD;
+	text-decoration: none;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	}
+	.btn-large {
+	min-width: 180px;
+	}
+	.btn {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 20px;
+	color: #FFF;
+	font-weight: 700;
+	font-size: 16px;
+	text-align: center;
+	background: #ff4001;
+	border: 0;
+	border-radius: 3px;
+	cursor: pointer;
+	}
+	.btn:hover {
+	color: #FFF;
+	text-decoration: none;
+	background-color: #f73500;
+	}		
+
+
+/*弹框样式1*/
+.cd-popup {
+    position: fixed;
+    left: 20%;
+    top: 80px;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    z-index:9999;
+}
+.cd-popup.is-visible {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+    -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+    transition: opacity 0.3s 0s, visibility 0s 0s;
+}
+.cd-popup-container {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+    -webkit-backface-visibility: hidden;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.cd-popup-close{ position: absolute;right:10px;top:10px; z-index: 10;width:auto;height:1.25rem; display: block;font-size:14px;}
+.is-visible .cd-popup-container {-webkit-transform:scale(1); -moz-transform:scale(1); -ms-transform:scale(1); -o-transform:scale(1); transform:scale(1);}
+

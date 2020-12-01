@@ -1,0 +1,86 @@
+.tb-footer {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 125px;
+    margin-top: 20px;
+    padding-bottom: 9px;
+    background-color: #fff;
+    font-size: 12px;
+	}
+	.tb-footer-hd{
+		width: 1190px;
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 7px;
+		border-top: 1px solid #ddd;
+	}
+	.tb-footer-hd p{
+		margin-bottom: 8px;
+		line-height: 27px;
+		border-bottom: 1px solid #ddd;
+	}
+	.tb-footer .tb-footer-hd a, .tb-footer .tb-footer-bd a {
+    white-space: nowrap;
+    color: #6c6c6c;
+    text-decoration: none;
+}
+	.tb-footer b {
+	    margin: 0 3px;
+	    font-weight: 400;
+	    color: #ddd;
+	}
+	.tb-footer .tb-footer-hd a:hover{
+    color: #F40;
+	}
+	/*关于淘宝*/
+	.tb-footer p {
+    padding-bottom: 8px;
+    overflow: hidden;
+    *zoom: 1;
+}
+	.tb-footer .tb-footer-bd{
+	width: 1190px;
+max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+	.tb-footer span {
+    margin: 0 4px;
+}
+	.tb-footer .tb-footer-bd a:hover {
+    color: #f40;
+    text-decoration: none;
+	}
+	.tb-footer em {
+    margin-left: 30px;
+    font-style: normal;
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    color: #9c9c9c;
+}
+.tb-footer .tb-footer-bd a {
+    white-space: nowrap;
+    color: #6c6c6c;
+    text-decoration: none;
+}
+.tb-footer em, .tb-footer span {
+    color: #9c9c9c;
+}
+.tb-footer .tb-footer-mod {
+    height: 40px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+	.tb-footer .tb-footer-mod{
+		background-image: url(https://img.alicdn.com/tfs/TB1EPnIQXXXXXaSXpXXXXXXXXXX-1133-35.jpg);
+	}
+	.tb-footer .tb-footer-ft {
+    width: 1190px;
+    max-width: 100%;
+    margin: 0px auto;
+}
+.tb-footer .tb-footer-ft a {
+    margin-right: 15px;
+}
+/*阿里app*/

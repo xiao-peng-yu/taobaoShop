@@ -1,0 +1,139 @@
+.next-dialog-header {
+    padding: 12px 20px;
+    border-bottom: 0 solid transparent;
+    font-size: 16px;
+    background: transparent;
+    color: #333;
+}
+.cd-popup-container {
+	padding: 0px;
+}
+.main-wrap{
+	
+	
+}
+.col-main{
+	width: 850px;
+	margin: 0px auto;
+	position: relative;
+	box-sizing: border-box;
+}
+.next-dialog-body {
+		max-height: 211px;
+		/* overflow-y: auto; */
+	    padding: 20px;
+		font-size: 12px;
+		color: #666;
+		box-sizing: border-box;
+}
+/* .page-buy div{
+	line-height: 20px;
+} */
+.page-buy {
+	width: 425px;
+    margin: 0px auto;
+    display: block;
+	box-sizing: border-box;
+}	
+.headTips{
+	line-height: 20px;
+}
+.headTips .ht-type {
+    padding-left: 10px;
+	color: red;
+}
+
+.page-buy .cndzkEntrance {
+    margin-top: 5px;
+}
+.cndzk-entrance-country-bar {
+    width: 100%;
+}
+.cndzk-entrance-country-bar {
+    line-height: 30px;
+}
+.cndzk-entrance-country-bar {
+    width: 378px;
+    height: 31px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    font-size: 12px;
+    line-height: 31px;
+}
+.cndzk-entrance-country-bar {
+    margin-bottom: 16px;
+}
+.cndzk-entrance-country-bar-info {
+    color: #9b9b9b;
+    margin: 0 15px;
+    display: inline-block;
+}
+.cndzk-entrance-country-bar span {
+    color: #000;
+}
+.cndzk-entrance-country-bar a {
+    color: #1470cc;
+    float: right;
+    margin-right: 15px;
+    display: inline-block;
+}
+.error{
+	border: 0.5px solid red;
+}
+.error-msg {
+    margin-bottom: 10px;
+	margin-left: 70px;
+	color: red;
+}
+.cndzk-entrance-associate {
+    line-height: 30px;
+}
+.cndzk-entrance-associate {
+    width: 100%;
+    height: 36px;
+    border: 0;
+}
+.cndzk-entrance-associate-title{ 
+	
+}
+
+.cndzk-entrance-associate-area {
+    width: 100%;
+    border: 0;
+}
+.cndzk-entrance-associate-area{
+	display: inline;
+}
+textarea{
+	resize: none;
+}
+.cndzk-entrance-associate-area-textarea {
+	width: 298px;
+    padding: 8px;
+	font-size: 12px;
+	vertical-align: middle;
+	margin-left: 15px;
+	height: 50px;
+}
+.interval{
+	margin-top: 12px;
+	margin-bottom: 12px
+	
+}
+.input_field:focus{
+	border: 1.5px solid blue;
+}
+.input_field{
+	width: 70%;
+	height: 24px;
+	padding-left: 8px;
+	/* border-top-left-radius: 5%; */
+}
+.tag{
+	display: inline-block;
+	width: 70px;
+}
+.page-buy div label::before{
+	content: '*';
+	color: red;
+}

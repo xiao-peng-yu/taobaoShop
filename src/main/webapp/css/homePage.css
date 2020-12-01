@@ -1,0 +1,1642 @@
+			body{
+				height: 1200px;
+				background-color: #F4F4F4;
+			}
+			#big{
+				margin: 0px auto;
+				background-color: rgb(245, 245, 245);
+				height: 35px;
+				position: relative;
+			}
+			a{
+				color: #3C3C3C;
+				text-decoration: none;
+			}
+			#big a:hover{
+				color: #FF4400;
+			}
+			
+			#tamall a:hover{
+				color: white;
+			}
+			a:hover{
+				color: #FF4400;
+			}
+			#two li{
+				float: left;
+			}
+			.left{
+				width: 292px;
+				height: 35px;
+				margin-right: 0px;
+				position: absolute;
+				float: left;
+			}
+			.h{
+				color: #f22e00;
+				line-height: 35px;
+			}
+			.height{
+				font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+				line-height: 35px;
+			}
+			.site-nav-menu-hd{
+				z-index: 10002;
+				position: relative;
+				padding: 0 6px;
+				height: 35px;
+				line-height: 35px;
+				width: 286px;
+			}
+			 .site-nav-menu-hd a {
+		    	margin-right: 7px;	
+    		}
+    		/*斜杠的样式*/
+    		.site-nav-pipe {
+		    float: left;
+		    height: 35px;
+		    line-height: 35px;
+		    padding: 0 5px;
+		    font-style: normal;
+		    color: #ddd;
+			}
+
+    		.last-height{
+    			font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+				line-height: 35px;
+    			margin-left: 7px;
+    		}
+			.right li{
+				margin-left: 4px;
+				margin-right: 6px;
+			}
+			.right a span{
+				font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+				line-height: 35px;
+			}
+			
+			#first{
+				height: 35px;
+				width: 1190px;
+				margin: 0px auto;
+				font-size: 12px;
+				font-weight: 400;
+				line-height: 35px;
+				}
+			
+			.twoBigDiv{
+				clear: both;
+				background-color: #FFFFFF;
+			}
+			.research{
+				width: 1190px;
+				margin: 0px auto;
+				padding-top: 24px;
+				position: relative;	
+			}
+			.taobaoResearch{
+				height: 88px;
+				margin: 0px auto;
+				position: relative;
+			}
+			.tb-logo{
+				width: 190px;
+				height: 88px;
+				float: left;
+			}
+			
+			.logo h2 {
+    		display: none;
+			}
+			.logo h2 a {
+		    display: block;
+		    padding-top: 33px;
+		    width: 80px;
+		    height: 0;
+		    text-indent: -9999px;
+		    overflow: hidden;
+		    background: url(//img.alicdn.com/tfs/TB1TGfMcwMPMeJjy1XbXXcwxVXa-80-33.png) 0 0 no-repeat;
+		}
+			
+			.tb-search-module{
+				width: 630px;
+				height: 88px;
+				position: relative;
+				margin: 0px auto;
+				background-color:  #FFFFFF;
+			}
+			.search-wrap{
+				width: 630px;
+				height: 88px;
+				position: relative;
+			}
+			.search-bd{
+				width: 630px;
+			}
+			.search-tab{
+				height: 22px;
+				margin-left: 17px;
+			}
+			.switch-tag{
+				list-style: none;
+			}
+			.serach-tab-selected-good{
+				width: 36px;
+				height: 22px;
+				margin-right: 4px;
+				float: left;
+			}
+			.search-tmall-search-tab{
+				width: 36px;
+				height: 22px;
+				margin-right: 4px;
+				float: left;
+			}
+			.search-shop-search-tab{
+				width: 36px;
+				height: 22px;
+				margin-right: 4px;
+				float: left;
+			}
+			.search-panel{
+				height: 39px;
+			}
+			.search-form{
+				height: 39px;
+			}
+			.search-button{
+				overflow: hidden;
+				float: right;
+			}
+			.search-button .button-search{
+				width: 74px;
+				height: 40px;
+				border:1px #FF8200 solid;
+				float: right;
+			}
+			.search-combobox{
+				width: 554.7px;
+				height:36px ;
+				border: 2px #FF5000 solid;
+				border-radius: 20px;
+				position: relative;
+			}
+			.search-cpmbobox-input-wrap{
+				width: 472px;
+				height: 36px;
+				
+			}
+			.search-combobox-input{
+				width: 472px;
+				height: 25px;
+				padding: 6px 10px;
+				border: 0px;
+				background-color: transparent;
+				outline:none
+			}
+			.search-img-upload{
+				width: 24px;
+				height: 36px;
+				position: absolute;
+				top: 2px;
+				right: 24px;
+			}
+			.search-keyword{
+				width: 630px;
+				height: 25px;
+				padding-top: 5px;
+				padding-right: 41px;
+				
+			}
+			.search-hots-lines{
+				width: 589px;
+				height: 18px;
+			}
+			.keyWord{
+				height: 14.4px;
+				font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+			}	
+			.qr-code{
+				width: 75px;
+				height: 89px;
+				position: absolute;
+				top: 0px;
+				right: 110px;
+				border: 1px solid #eee;
+			}	
+			#phonetaobao{
+				display: block;
+				margin: 4px auto 0;
+				font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+				text-align: center;
+				color: #FF751C;
+			}
+			.tb-nav-topic-shop{
+				height: 30px;
+			}
+			.nav-tb-site{
+				height: 30px;
+				width: 1190px;
+				margin: 0px auto;
+				position: relative;
+				background-color: #ED5000;
+			}
+			#topic-marketing{
+					float: left;
+					width: 190px;
+					height: 30px;
+					background: #ff5000;
+					text-align: center;
+					line-height: 30px;
+					color: #fff;
+					font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+					font-size:18px;
+				}
+				#tmall{
+					width: 42px;
+					height: 30px;
+					margin: 0 3px;
+					float: left;
+					line-height: 30px;
+				}
+				#superCheap{
+					width: 66.95px;
+					float: left;
+					margin: 0px 1px 0px 10px;
+				}
+				#tmallShop{
+					margin: 0px 3px;
+					float: left;
+				}
+				.pipe{
+					margin-left: 0px;
+					position: relative;
+					float: left;
+					color: white;
+				}
+			.nav-first{
+				height: 30px;
+				width: 218px;
+				font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+				font-size: 16px;
+				background-color: #ED7600;
+				position: relative;
+				float: left;
+			}
+			.nav-twice{
+				height: 30px;
+				width: 280px;
+				font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+				font-size: 16px;
+				background-color: #ED6B00;
+				position: relative;
+				float: left;
+			}
+			.lawAuction,.taoChoose,.electricCity,.taoPurchase{
+				position: relative;
+				float: left;
+			}
+			.nav-last{
+				height: 30px;
+				width: 234px;
+				font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+				font-size: 16px;
+				background-color: #ED5800;
+				position: relative;
+				float: left;
+			}
+			.screen-outer{
+				width: 1190px;
+				height: 522px;
+				margin: 0px auto;
+			}
+			.main,.main-inner{
+				width: 900px;
+				height: 100%;
+				float: left;
+				position: relative;
+				background-color: #F4F4F4;
+			}
+			.tb-service,.service{
+				width: 190px;
+				height: 522px;
+				float: left;
+				background-color: white;
+			}
+			.service-bd{
+				padding-top: 6px;
+				padding-bottom: 0px;
+				width: 189px;
+				height: 514px;
+				border: 1px solid #ff5000;
+				border-top: none;
+				
+			}
+			.typeOfGoods{
+				width: 149px;
+				height: 32px;
+				padding-left: 25px;
+				padding-right: 19px;
+				padding-top: 1px;
+				padding-bottom: 1px;
+				position: relative;
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 32px;
+				color: #666;
+			}
+			.textType{
+				line-height: 32px;
+				font-weight: 400;
+				margin-right: 4px;
+			}
+			.nav_right{
+		    position: absolute;
+		    left: 188px;
+		    top: 0;
+		    padding: 0 0 0 18px;
+		    width: 692px;
+		    height: 518px;
+			z-index: 22;
+			background-color: white;
+			border: 2px solid #F94A14;
+			box-shadow: 2px 2px 0 #dcdadb;
+			background-color: #FFF;
+			color: #333;
+			font-size: 12px;
+			}
+			/*悬浮栏显示的东西*/
+			.onService-float {
+		    -webkit-transform: translateZ(0);
+		    -moz-transform: translateZ(0);
+		    -ms-transform: translateZ(0);
+		    -o-transform: translateZ(0);
+		    transform: translateZ(0);
+		    border: 2px solid #F94A14;
+		    box-shadow: 2px 2px 0 #dcdadb;
+		    background-color: #FFF;
+		    color: #333;
+		    font-size: 12px;
+		    z-index: 22;
+		}
+		.show{
+			display: block;
+		}
+		.hidden{
+			display: none;
+		}
+		.service-bd li.on{
+			background-color: #ffe4dc;
+			color: #ff5000;
+		}
+		.service-fi-links {
+	    padding-top: 10px;
+	    width: 415px;
+	    height: 490px;
+	    overflow-x: hidden;
+	    overflow-y: auto;
+	    padding-right: 12px;
+	    padding-left: 10px;
+	    float: left;
+		}
+		.service-panel.full {
+   		 width: 100%;
+		}
+		.service-panel {
+		    font-size: 12px;
+		    margin-bottom: 5px;
+		    width: 50%;
+		    float: left;
+		}	
+		.service-panel h5 {
+		    position: relative;
+		    height: 34px;
+		    line-height: 34px;
+		    font-size: 16px;
+		    color: #333;
+		}
+		.service-panel p a {
+	    color: #666;
+	    display: inline-block;
+	    margin-right: 12px;
+	    white-space: nowrap;
+		}
+		.service-panel p {
+		    overflow: hidden;
+		    line-height: 26px;
+		}
+		.service-rmd {
+		    float: left;
+		    width: 253px;
+		    border-left: 1px solid #f4f4f4;
+		    position: relative;
+		    height: 498px;
+		    padding-top: 20px;
+		}
+		.service-rmd h3 {
+			    line-height: 18px;
+			    color: #333;
+			    font-size: 14px;
+			    text-align: center;
+			    font-weight: 400;
+			}
+			.service-rmd-list a {
+			    display: block;
+			    width: 97px;
+			    height: 143px;
+			    padding: 10px 0 0 20px;
+			    overflow: hidden;
+			}
+			.service-rmd-list .img-wrapper {
+			    width: 97px;
+			    height: 97px;
+			    overflow: hidden;
+			}
+			.img-wrapper {
+			    background: #4f4f4f;
+			}
+			.service-rmd-list img {
+			    display: block;
+			    width: 98px;
+			    height: 97px;
+			}
+			.img-wrapper img {
+			    opacity: .9;
+			}
+			.img-wrapper img {
+			    background: #fff;
+			    opacity: .9;
+			    filter: alpha(opacity=90);
+			    -webkit-transition: all .2s;
+			    -moz-transition: all .2s;
+			    -o-transition: all .2s;
+			    transition: all .2s;
+			}
+			.service-rmd-list h5 {
+			    height: 26px;
+			    line-height: 26px;
+			    font-size: 12px;
+			    overflow: hidden;
+			    font-weight: 400;
+			    color: #999;
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			.core{
+				width: 520px;
+				height: 512px;
+				margin-left: 10px;
+				margin-top: 10px;
+				float: left;
+				position: relative;
+			}
+			.promo{
+				width: 520px;
+				height: 280px;
+				overflow: hidden;
+			}
+			.promo-photo{
+				width: 520px;
+				height: 280px;
+				overflow: hidden;
+				position: relative;
+			}
+			.tmall-module{
+				width: 520px;
+				height: 230px;
+				/*position: relative;*/
+			}
+			.tmall-hd{
+				padding-top: 11px;
+				background-color: #f1f1f1;
+				position: relative;
+			}
+			.inner{
+				height: 18px;
+				position: relative;
+			}
+			#nubmer{
+				position: absolute;
+				right: 0px;
+				font-family: sans-serif;
+				font-size: 12px;
+				font-weight: 400;
+				line-height: 18px;
+			}
+			
+			.tmall-bd{
+				width:520px;
+				height: 201px;
+				overflow: hidden;
+				background-color: white;
+			}
+			.move-photo{
+				width: 251px;
+				height: 190px;
+				display: block;
+				float: left;
+				margin: 14px 4px;
+			}
+			
+			
+			.module2 .swiper-scrollbar{
+				position: absolute;
+				top: 1px;
+				background-color: red;
+			}
+			.module2 .swiper-scrollbar-drag{
+				background-color: black;
+			}
+			.module2 .swiper-pagination-bullet-active{
+				background-color: white;
+			}
+			
+			
+			.swiper-container .hide{
+			  opacity:0;
+			}
+			.swiper-button-next,.swiper-button-prev{
+			  transition:opacity 0.25s;
+			}
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			.sub-column{
+				float: right;
+				width: 160px;
+				height: 512px;
+				margin-right: 10px;
+				margin-top: 10px;
+			}
+			.tb-focus{
+				height: 280px;
+				background-color: white;
+			}
+			.hb-tanx{
+				height: 230px;
+				margin-top: 1px;
+				/*background-color: white;*/
+			}
+			#hot-buy{
+				font-size: 12px;
+				font-weight: 400;
+				background: #f1f1f1;
+				color: #a1a1a1;
+				line-height: 24px;
+				padding-top: 6px;
+				font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+			}
+			.tanxssp{
+				overflow: hidden;
+				display: inline-block;
+				position: relative;
+				width: 160px;
+				height: 200px;
+			}
+			.col-right{
+				float: right;
+				width: 290px;
+				height: 100%;
+				margin-top: 10px;
+			}
+			.tb-menber{
+				width: 290px;
+				height: 137px;
+				background-image: url("//img.alicdn.com/tfs/TB19tIiOFXXXXbmapXXXXXXXXXX-580-340.png");
+				background-size: 290px 145px;
+				background-repeat: no-repeat;
+				background-position: 0 0;
+			}
+			.member{
+				width: 290px;
+				height: 137px;
+				padding: 3px 0px 2px 0px;
+			}
+			.member-bd{
+				/*position: relative;*/
+				height: 91px;
+			}
+			.avater-wraper{
+				width: 74px;
+				height: 56px;
+				margin: 0px auto;
+				
+					
+			}
+			.menber-home{
+				border-radius: 50%;
+				background-clip: padding-box;
+				width: 50px;
+				height: 50px;
+				line-height: 50px;
+				overflow: hidden;
+				display: block;
+				border: 3px solid #fff;
+				margin: 0px auto;
+			}
+			.member-nick-info{
+				display: block;
+				line-height: 17px;
+				height: 17px;
+				text-align: center;
+			}
+			.member-nick-info{
+				font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+			}
+			.menber-tjb{
+				height: 17px;
+				line-height: 17px;
+			}
+			.tj-money{
+				height: 17px;
+				display: inline-block;
+				border-radius: 9px;
+				background: #ffe4db;
+				padding: 0 10px 0 20px;
+				text-align: center;
+				position: relative;
+				margin-left: 40px;
+				border: none;
+				font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+   				/*line-height: 1.5;*/
+   				color: #ff5000 ;
+			}
+
+			.tbh-icon{
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				line-height: 17px;
+				display: block;
+				height: 16px;
+				width: 16px;
+				background: url(https://img.alicdn.com/tfs/TB1eiXTXlTH8KJjy0FiXXcRsXXa-24-595.png)0 0 no-repeat;
+				background-position: 0 -572.5px;
+			}
+			.member-club{
+				display: inline-block;
+				background-clip: padding-box;
+				background: #ffe4db;
+				padding: 0 10px 0 20px;
+				position: relative;
+				border: none;
+				border-radius: 9px;
+				margin-left: 2px;
+				line-height: 17px;
+				font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+   				line-height: 1.5;
+   				color: #ff5000 ;
+				}
+
+			.tbh-icon-club{
+				/*background: url(https://img.alicdn.com/tfs/TB1eiXTXlTH8KJjy0FiXXcRsXXa-24-595.png) 0 0 no-repeat;*/
+				background: url(https://img.alicdn.com/tfs/TB1eiXTXlTH8KJjy0FiXXcRsXXa-24-595.png) 0 0 no-repeat;
+				position: absolute;
+				top: 0;
+				display: block;
+				left: 0;
+				height: 16px;
+				width: 16px;
+				background-position: 0 -528px;
+				line-height: 17px;
+			}
+			.member-ft{
+				height: 40px;
+				margin-top: 2px;
+				padding-left: 15px;
+			}
+			.member-logout{
+				height: 25px;
+				margin-top: 8px;
+			}
+			.member-logout a:hover{
+				color: white;
+			}
+			.btn-login{
+				margin-right: 7px;
+				float: left;
+				width: 92px;
+				border-radius: 4px;
+				background-clip: padding-box;
+				font-size: 14px;
+				font-weight: 700;
+				text-align: center;
+				font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+				color: #FFF;
+				line-height: 25px;
+				background-color: #ff5000;
+			}
+			.tb-notice{
+				height: 70px;
+				padding-top: 7px;
+				width: 290px;
+				font-weight: 700;
+				background-color: white;
+			}
+			.notice-hd{
+				height: 24px;
+				margin-top: 4px;
+				margin-right: -2px;
+				padding: 0 8px;
+			}
+			.selected{
+				float: left;
+				width: 32px;
+				text-align: center;
+				margin: 0 11px;
+			}			
+			.notice-bd,.mod-hide{
+				height: 37px;
+			}
+			.mod-hide{
+				margin: 0 12px;
+				height: 25px;
+				padding-top: 6px;
+				padding-bottom: 6px;	
+			}
+			.h{
+				font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+				font-weight: 700;
+				line-height: 20px;
+			}
+			.tbh-conve{
+				height: 154px;
+				border-top: 1px solid #f4f4f4;;
+				background-color: white;
+				margin-bottom: 1px;
+			}
+			.conve-list{
+				overflow: hidden;
+			}
+			.conve-float{
+				width: 70.5px;
+				height: 76px;
+				position: relative;
+				float: left;
+				border: 1px solid #f4f4f4;
+			}
+		
+			.c{
+				display: block;
+				width: 71px;
+				height: 76px;
+				text-align: center;
+			}
+			.conve-item-icon{
+				background: url(https://img.alicdn.com/tfs/TB1eiXTXlTH8KJjy0FiXXcRsXXa-24-595.png) 0 0 no-repeat;
+			    background-position-x: 0px;
+			    background-position-y: 0px;
+			    background-repeat: no-repeat;
+				display: inline-block;
+				text-align: center;
+				width: 24px;
+				height: 24px;
+				margin-top: 11px;
+				background-repeat: no-repeat;
+			}
+			.text{
+				line-height: 24px;
+				font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;	
+				color: #F40;
+			}
+			.layer.clearfix{
+				width: 1190px;
+				margin: 2px auto;
+				
+				/*height: 538px;*/
+			}
+			.layer-inner{
+				margin-top: 10px;
+			}
+			/**/
+			.tbh-discover-goods{
+				width: 1190px;
+				height: 358px;				
+				float: left;
+				position: relative;
+				margin-top: 2px;
+				background-color: white;
+			}
+			.goods-inner{
+				height: 332px;
+			
+			}
+			.goods-hd{
+				padding-left: 20px;
+				margin-top: 20px;
+				margin-bottom: 20px;	
+			}
+			.subtitle-ml6{
+				line-height: 24px;
+				height: 24px;
+				color: #999;
+				font-weight: 400;
+				font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+			}
+			.goods-list{
+				overflow: hidden;
+				padding-left: 21px;
+				height: 288px;
+			}
+			.this{
+				display: block;
+				float: left;
+				width: 180px;
+				overflow: hidden;
+				margin: 0 14px 17px 0;
+			}
+			.img-wrapper-first{
+				height: 180PX;
+				display: block;
+			}
+			.a-all{
+			width: 100%;
+			height: 180px;
+			display: block;
+			opacity: .9;	
+			}
+			.goods-list a .info{
+				overflow: hidden;
+				padding: 0 4px 0 6px;
+			}
+			.info-introduce{
+				line-height: 24px;
+				color: #999;
+				font-size: 14px;
+				overflow: hidden;
+				height: 24px;
+			}
+			.extra{
+				line-height: 22px;
+				height: 22px;
+				margin-top: 12px;
+				color: #35b1ff;	
+				font-size: 14px;
+				overflow: hidden;
+			}
+			.tb-infont{
+				line-height: 22px;
+				color: #35b1ff;
+				font-family: iconfont !important;
+				font-size: 14px;
+				font-style: normal;
+				display: inline-block;
+				text-decoration: none;
+				margin-right: 4px;
+			}
+			.tanx{
+				height: 70px;
+				background-color: white;
+			}
+			.layer-one{
+				width: 1190px;
+				margin: 0 auto;
+				float: left;
+				background-color: #F4F4F4;
+			}
+			/*.layer-inner.clearfix{
+				margin-top: 10px;
+				height: 280px;
+			}*/
+		
+			.layer{
+				width: 1190px;
+				margin: 0 auto;
+			}
+			.layer-inner{
+				margin-top: 10px;
+				width: 1190px;
+				overflow: hidden;
+			}
+			.layer-goods{
+				width: 1190px;
+				margin: 0 auto;
+			}
+			.layer-inner-goods{
+				margin-top: 10px;
+			}
+		
+			.goods-inner{
+				
+			}
+			.tbh-shop{
+				width: 590px;
+				height: 538px;	
+				float: left;
+				margin-bottom: 20px;
+				background-color: white;
+			}
+			.shop-inner{
+				overflow: hidden;
+			}
+			.mlogo{
+				height: 24px;
+				margin-right: 5px;
+				float: left;
+			}
+			.subtitle{
+				margin-left: 6px;
+				line-height: 24px;
+				color: #999;
+				font-weight: 400;
+				font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+			}
+			.shop-hd{
+				margin-bottom: 0;
+				padding-left: 20px;
+				margin-top: 20px;
+				font-size: 100%;
+			}
+			.shop-hd p{
+				line-height: 24px;
+height: 24px;
+color: #999;
+font-weight: 400;
+			}
+			.list-clearfix-shop-list{
+				padding-left: 12px;
+			}
+			.fl{
+				float: left;
+			}
+			.list-clearfix-shop-list .fl{
+				padding: 6px 0 20px 0;
+				margin-left: 8px;
+				width: 271px;
+			}
+			.fl a{
+				display: block;
+			}
+			.fl h4{
+				color: #333;
+				line-height: 42px;
+				height: 42px;
+				font-weight: normal;
+			}
+			.title{
+				font-size: 16px;
+				vertical-align: top;
+			}
+			.img-wrapper-big-img{
+				float: left;
+				width: 180px;
+				height: 180px;
+				overflow: hidden;
+			}
+			.The-right{
+				height: 180px;
+				margin-left: 182px;
+			}
+			.img-wrapper-small{
+				width: 89px;
+				height: 89px;
+				overflow: hidden;
+			}
+			.img-wrapper-big-img img{
+				height: 180px;
+				width: 180px;
+			}
+			.img-wrapper-second{
+				margin-top: 2px;
+			}
+			.img-wrapper-second img{
+				height: 89px;
+				width: 89px;
+				display: block;
+			}
+			.fl-odd{
+				width: 190px;
+				padding: 6px 0 20px 0;
+				margin-left: 8px;
+				float: left;
+			}		
+			.tb-jh{
+				color: #333;
+line-height: 42px;
+height: 42px;
+font-weight: normal;
+			}
+			/*淘宝直播*/
+			.tbh-live{
+				position: relative;
+				width: 590px;
+				margin-left: 10px;
+				height: 538px;
+				float: left;
+				background-color: white;
+			}
+			.live-hd{
+				padding-left: 20px;
+margin-top: 20px;
+position: relative;
+margin-bottom: 0;
+			}
+			.live-hd p{
+			line-height: 24px;
+			height: 24px;
+			color: #999;
+			font-weight: 400;	
+			}
+			.live-list{
+				padding-left: 12px;
+			}
+			.live-list li{
+				padding: 6px 0 20px 0;
+				margin-left: 8px;
+				width: 271px;
+			}
+			.live-list li a{
+				display: block;	
+			}
+			.live-list li h4{
+				color: #333;
+				line-height: 42px;
+				height: 42px;
+				font-weight: normal;
+			}
+			.live-list li h4 .title{
+				font-size: 16px;
+				vertical-align: top;
+				font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+			}
+			.main-wrapper{
+				position: relative;
+				width: 180px;
+				height: 180px;
+			}
+			.main-wrapper h4{
+				color: #fff;
+				position: absolute;
+				line-height: 42px;
+				height: 42px;
+				overflow: hidden;
+				
+				left: 0;
+				bottom: 0;
+				z-index: 2;
+				font-size: 14px;
+				font-weight: normal;
+				padding-left: 4px;
+				font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+			}
+			.main-wrapper h4 .tag{
+				position: relative;
+				top: 7px;
+				float: left;
+				width: 27px;
+				color: #ff2658;
+				line-height: 32px;
+				font-size: 28px;
+				margin-right: 2px;
+				display: block;
+			}
+			/*特色好物*/
+			.tbh-fashion{
+				width: 840px;
+				height: 290px;
+				float: left;
+				background-color: white;
+			}
+			.fashion-hd{
+				color: #AD45Df;
+border-bottom: 1px solid #f4f4f4;
+			}
+			.bar-hd{
+				position: relative;
+				padding-left: 32px;
+				margin-top: 5px;
+				line-height: 48px;
+				font-size: 20px;
+			}	
+			.bar-hd em{
+				display: block;
+				font-style: normal;
+			}	
+			.line{
+				content: '';
+				position: absolute;
+				width: 4px;
+				height: 16px;
+				top: 16px;
+				left: 20px;
+				background-color: #AD45Df;
+			}		
+			.tbh-fashion .list .item{
+				width: 208px;
+				border: 1px solid transparent;
+				border-right: 1px solid #f4f4f4;
+				border-bottom-color: #fff;
+				float: left;
+				height: 234px;
+			}
+			.list .item:hover{
+				border: 1px solid red;
+			}
+			.tbh-fashion .list .info{
+				padding-left: 20px;
+			}
+			.tbh-fashion .list .brand-item{
+				margin-top: 17px;
+				font-size: 18px;
+				color: #333;
+				line-height: 26px;
+				height: 26px;
+				font-weight: normal;
+			}
+			.tbh-fashion .list .subtitle{
+				color: #999;
+				line-height: 22px;
+				height: 22px;
+				overflow: hidden;
+			}
+			.tbh-fashion .img-wrapper-outer{
+				margin-top: 12px;
+padding-left: 26px;
+			}
+			.tbh-fashion .img-wrapper-outer .item-wrapper {
+    			margin-left: 2px;
+    		}
+    		.tbh-fashion .img-wrapper-outer img {
+			    width: 150px;
+			    height: 150px;
+			    display: block;
+			}
+			.tb-tanx-wrapper {
+    float: right;
+    width: 298px;
+    height: 248px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+}
+			
+			
+			
+			
+			
+			
+			
+			/*猜你喜欢*/
+			.tbh-hotsale{
+				position: relative;
+				overflow: hidden;
+				width: 1190px;
+				background-color: white;
+			}
+			
+.tbh-hotsale .list {
+    min-height: 50px;
+}
+			.hotsale-hd{
+				color: #ff9f00;
+border-bottom: 1px solid #f4f4f4;
+			}
+			.bar-hd em{
+				display:  block;
+				font-style: normal;
+				line-height: 48px;
+font-size: 20px;
+width: 100px;
+			}
+			.tbh-hotsale .list .item{
+				float: left;
+				padding: 20px 20px 0 20px;
+				border: 1px solid transparent;
+				color: #6c6c6c;
+				width: 196px;
+				height: 312px;
+				overflow: hidden;
+				position: relative;
+				transition: border-color 0.3s;
+				border-right-color: #f4f4f4;
+				border-bottom-color: #f4f4f4;
+			}
+			.hotsale-item .img-wrapper{
+				width: 197px;
+height: 197px;
+overflow: hidden;
+			}
+			.hotsale-item .img-wrapper img{
+display: block;
+width: 101%;
+height: 100%;   
+ transition: opacity 0.2s;
+ background: #fff;
+ opacity: .9;
+			}
+			.hotsale-item h4{
+				font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+				margin-top: 7px;
+line-height: 22px;
+height: 44px;
+font-size: 14px;
+color: #666;
+font-weight: normal;
+transition: color 0.3s;
+overflow: hidden;
+			}
+			.tbh-hotsale .list .item .info{
+				margin-top: 22px;
+height: 24px;
+line-height: 24px;
+			}
+			.tbh-hotsale .list .item .price{
+				float: left;
+color: #F40;
+font-size: 20px;
+			}
+			.tbh-hotsale .list .item .price em{
+				font-family: "Microsoft Yahei";
+display: inline-block;
+zoom: 1;
+*display: inline;
+letter-spacing: normal;
+word-spacing: normal;
+vertical-align: top;
+margin-right: 2px;
+font-size: 12px;
+vertical-align: inherit;
+			}
+			.tbh-hotsale .list .item .sales{
+				font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+				float: right;
+color: #9ca0aa;
+margin-top: 3px
+			}
+			.tbh-hotsale .item-more{
+				display: none;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 236px;
+				height: 82px;
+				background: #FF5000;
+			}
+	
+	.tbh-hotsale .item-more .similar {
+    margin: 0 auto;
+        margin-top: 0px;
+    width: 120px;
+    margin-top: 15px;
+    line-height: 32px;
+    height: 32px;
+    font-size: 18px;
+    font-weight: normal;
+    border-bottom: 1px solid #FE964A;
+    color: #fff;
+text-align: center;
+    }
+    .tbh-hotsale .item-more p {
+    line-height: 22px;
+    font-size: 12px;
+    height: 22px;
+    color: #fff;
+    text-align: center;
+}
+
+/*end结束标志*/
+	.hotsale-fl{
+		height: 50px;
+		background: #f4f4f4;
+		position: relative;
+		clear: both;
+	}
+	.hotsale-end{
+		position: absolute;
+text-align: center;
+color: #ccccd0;
+left: 50%;
+width: 84px;
+line-height: 20px;
+font-size: 18px;
+margin-left: -42px;
+font-style: normal;
+top: 20px;
+	}
+	
+
+/*消费者保障*/
+	.tbh-helper{
+		background-color:#F4F4F4;
+		position: relative;
+	}
+	.helper{
+		padding-top: 40px;
+height: 140px;
+	}
+	.helper .mod{
+		float: left;
+		margin-right: -1px;
+width: 25%;
+	}
+	.helper .mod .mod-wrap{
+		padding: 0 25px;
+	}
+	.tb-ifont {
+    font-family: iconfont !important;
+    font-size: 14px;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+	.helper .mod .mod-wrap h4 .tb-ifont{
+		float: left;
+		font-size: 32px;
+		color: #999;
+	}
+	.helper .mod .mod-wrap h4 span{
+		float: left;
+*display: inline;
+margin-left: 12px;
+padding-top: 12px;
+font-size: 16px;
+	}
+	.helper .mod .mod-wrap li{
+		
+		
+		display: inline-block;
+zoom: 1;
+*display: inline;
+letter-spacing: normal;
+word-spacing: normal;
+vertical-align: top;
+margin-right: 10px;
+float: none;
+width: auto;
+line-height: 21px;
+	}
+	.helper .mod .mod-wrap li a{
+		color: #999;
+		
+	}
+	.mod-wrap ul li a{
+		font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+	}
+	.helper .mod .mod-wrap li a:hover {
+    color: #F40;
+}
+/*淘宝尾部的网站*/
+	.tb-footer {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 125px;
+    margin-top: 20px;
+    padding-bottom: 9px;
+    background-color: #fff;
+    font-size: 12px;
+	}
+	.tb-footer-hd{
+		width: 1190px;
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 7px;
+		border-top: 1px solid #ddd;
+	}
+	.tb-footer-hd p{
+		margin-bottom: 8px;
+		line-height: 27px;
+		border-bottom: 1px solid #ddd;
+	}
+	.tb-footer .tb-footer-hd a, .tb-footer .tb-footer-bd a {
+    white-space: nowrap;
+    color: #6c6c6c;
+    text-decoration: none;
+}
+	.tb-footer b {
+	    margin: 0 3px;
+	    font-weight: 400;
+	    color: #ddd;
+	}
+	.tb-footer .tb-footer-hd a:hover{
+    color: #F40;
+	}
+	/*关于淘宝*/
+	.tb-footer p {
+    padding-bottom: 8px;
+    overflow: hidden;
+    *zoom: 1;
+}
+	.tb-footer .tb-footer-bd{
+	width: 1190px;
+max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+	.tb-footer span {
+    margin: 0 4px;
+}
+	.tb-footer .tb-footer-bd a:hover {
+    color: #f40;
+    text-decoration: none;
+	}
+	.tb-footer em {
+    margin-left: 30px;
+    font-style: normal;
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    color: #9c9c9c;
+}
+.tb-footer .tb-footer-bd a {
+    white-space: nowrap;
+    color: #6c6c6c;
+    text-decoration: none;
+}
+.tb-footer em, .tb-footer span {
+    color: #9c9c9c;
+}
+.tb-footer .tb-footer-mod {
+    height: 40px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+	.tb-footer .tb-footer-mod{
+		background-image: url(https://img.alicdn.com/tfs/TB1EPnIQXXXXXaSXpXXXXXXXXXX-1133-35.jpg);
+	}
+	.tb-footer .tb-footer-ft {
+    width: 1190px;
+    max-width: 100%;
+    margin: 0px auto;
+}
+.tb-footer .tb-footer-ft a {
+    margin-right: 15px;
+}
+/*阿里app*/
+.tbh-app {
+    padding-top: 1px;
+    background-color: white;
+}
+.tbh-app {
+    position: relative;
+}
+.apps {
+    position: relative;
+    height: 76px;
+}
+.apps h3{
+	font-size: 14px;
+padding-left: 14px;
+height: 30px;
+line-height: 30px;
+position: relative;
+z-index: 2;
+}
+.apps .more{
+	position: absolute;
+right: 10px;
+font-size: 12px;
+font-weight: 400;
+}
+.apps-nav{
+	padding-left: 23px;
+position: relative;
+height: 44px;
+}
+.apps-nav li{
+	transition: all 0s;
+position: relative;
+float: left;
+width: 32px;
+height: 32px;
+margin-right: 21px;
+margin-bottom: 8px;
+}
+.apps-nav li a img{
+	width: 32px;
+	height: 32px;
+}
+.apps-nav .app-qr {
+    -ms-touch-action: none;
+    touch-action: none;
+    bottom: 39px;
+    left: -32px;
+    width: 90px;
+    height: 102px;
+    background: #FFF;
+    border: 1px solid #dedede;
+    text-align: center;
+    display: none;
+    position: absolute;
+    z-index: -1;
+}
+/*固定页面*/
+.fixedtool{
+	background-color: white;
+	height: 350px;
+	z-index: 5;
+	right: 50%;
+	width: 50px;
+	text-align: center;
+	margin-right: -655px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.J_Module{
+	min-height: 0;
+	background-color: #FFF;
+}
+.fixedtool .wangwang{
+    position: absolute;
+    height: 36px;
+    width: 50px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 32px;
+    color: #ff7f13;
+    top: -36px;
+    right: 0px;
+    overflow: hidden;
+}
+.fixedtool a{
+	display: block;
+	height: 44px;
+	position: relative;
+	text-decoration: none;
+	padding: 6px 8px 0;
+	font-size: 14px;
+	line-height: 40px;
+	background: #fff;
+	
+	font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+.fixedtool a::after {
+    content: '';
+    border-bottom: 1px solid #efefef;
+    width: 34px;
+    position: absolute;
+    left: 8px;
+    bottom: -1px;
+    z-index: 1;
+}
+a.fixedtool-1, a.fixedtool-3, a.fixedtool-4, a.fixedtool-5, a.fixedtool-6, a.fixedtool-7, a.fixedtool-9 {
+    line-height: 17px;
+    font-size: 13px;
+}
+a.fixedtool-1 {
+    color: #F40;
+    padding-top: 10px;
+    height: 40px;
+}
+.fixedtool a.fixedtool-1{
+	border-top-right-radius: 8px;
+background-clip: padding-box;
+border-top-left-radius: 8px;
+}
+.fixedtool a.on{
+	z-index: 2;
+text-decoration: none;
+color: #FFF;
+font-weight: 700;
+background-repeat: repeat-x;
+background-image: linear-gradient(135deg,#ff971b,#ff5000);
+}
+a.fixedtool-1.on, a.fixedtool-1:hover {
+    background-color: #F40;
+}
+.fixedtool-3 {
+    color: #f05;
+}
+.fixedtool-5 {
+    color: #A8C001;
+}
+a.fixedtool-6 {
+    color: #F40;
+}
+a.fixedtool-7, a.fixedtool-8, a.fixedtool-9 {
+    font-size: 12px;
+}
+.fixedtool-8 i{
+	display: block;
+	line-height: 40px;
+	font-style: normal;
+}
+.fixedtool-9 {
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius-bottomright: 8px;
+    -moz-background-clip: padding;
+    border-bottom-right-radius: 8px;
+    background-clip: padding-box;
+}
